@@ -1,0 +1,105 @@
+
+/* navbar */
+nav {
+  background-color: rgba(220, 204, 166, 0.967);
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .nav-car-title {
+  text-decoration: none;
+  font-size: 3rem;
+  font-style: oblique;
+  color: black;
+  font: bold;
+} */
+
+.nav-left-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2.3rem;
+}
+
+.nav-left:link,
+.nav-left:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.nav-left:hover,
+.nav-left:active {
+  color: red;
+}
+
+/* section one code */
+.sec-1 {
+  padding: 2em 03em;
+}
+
+.whole-table {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  /* font-weight: bold; */
+  padding-top: 80px;
+  padding-bottom: 25px;
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 30px;
+}
+
+.table {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 100%;
+}
+
+.main-td {
+  /* background-image: linear-gradient(gray, gray); */
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.td-element {
+  border: 1px solid black;
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.td-element h5 {
+  margin: 0.5em 0em;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.td-element-sub {
+  border: 1px solid black;
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.td-element-sub h5 {
+  margin: 0.5em 0em;
+  font-size: 20px;
+  font-weight: lighter;
+}
